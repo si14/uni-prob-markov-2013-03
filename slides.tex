@@ -661,11 +661,11 @@
     \node (l) [var, circle]
           {L};
     \node (lm) [var, circle, fill=black!20] [right of=l, xshift=-0.5cm]
-          {Move L}
+          {Move R}
           edge [<-] (l)
           edge [->, bend right] node[above] {0.1} (l);
     \node (rm) [var, circle, fill=black!20] [right of=lm, xshift=1cm]
-          {Move R}
+          {Move L}
           edge [->, bend left] node[below] {0.9} (lm)
           edge [<-, bend right] node[above] {0.9} (lm);
     \node (r) [var, circle] [right of=rm, xshift=-0.5cm]
